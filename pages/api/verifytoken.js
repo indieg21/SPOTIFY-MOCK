@@ -19,9 +19,16 @@ const options = {
       data: qs.stringify(data),
       url: "https://accounts.spotify.com/api/token",
     };
-    const response = await axios(options);
-    const { access_token } = response.data;
-    res.status(200).json({access_token})
-    console.log(access_token);
+
+      const getToken  =async () => {
+       try{
+         const response = await axios(options);
+        const { access_token } = response.data;
+        res.status(200).json({access_token})
+       } catch(err){
+         return res.status(400).json({msg:"Something went wrong"})
+       }
+      }
+    getToken();
 
 }
