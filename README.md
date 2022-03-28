@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SPOTIFY-MOCK APP
+A Spotify clone app using the Spotify API.  
 
-## Getting Started
 
-First, run the development server:
+## About The Project
+A Spotify clone app using the Spotify API. Allowing the user to search for songs and click a link to listen to the song in a new tab.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Built With
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Create-react-app
+- HTML / CSS
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Prerequisites
+ - Git
+ - Node.js
+ - NPM
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Credit
 
-## Learn More
+👤 **India G**
 
-To learn more about Next.js, take a look at the following resources:
+-   Github: [indieg21](https://github.com/indieg21)
+-   Twitter: [@IndieTheTechGi1](https://twitter.com/IndieTheTechGi1)
+-   Linkedin: [linkedin](https://www.linkedin.com/in/india-g-a9046b78/)
+-   <Indiagraham21@gmail.com>
+-   <https://indieart.myportfolio.com/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src="public/spotifyss.png" >
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- git clone git@github.com:indieg21/SPOTIFY-MOCK.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- cd SPOTIFY-MOCK
+
+- npm install
+
+- npm start
+
+## Live Version
+
+[Live Demo Link](https://spotify-mock-indieg21.vercel.app/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
